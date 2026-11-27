@@ -1,11 +1,1 @@
-# Live Location Share
-
-Simple browser-based location display with explicit permission and a stop control.
-
-## Deploy on Render
-1. Connect this GitHub repository to Render as a Static Site.
-2. Build command: leave blank.
-3. Publish directory: `.`
-4. Deploy.
-
-Location is only requested when a visitor taps Get my location and approves browser permission. This starter displays coordinates locally and does not transmit GPS to a server.
+# Location Share\n\nConsent-based one-time GPS sharing webpage.\n\n1. Share the page URL with the participant.\n2. Participant opens it and taps **Share my current location**.\n3. Participant grants browser location permission.\n4. Participant copies and sends the generated coordinate URL to the intended viewer.\n5. Viewer opens that URL to see coordinates and a map link.\n\nGPS is not collected automatically, and this static site does not transmit coordinates to a server. Links contain coordinates, so treat them as private.\n\n## Render Static Site\nBuild command: blank\nPublish directory: .\n
